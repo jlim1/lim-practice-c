@@ -1,0 +1,20 @@
+// Integer division produces the quotient while the remainder operator gives the leftover pounds.
+#include <stdio.h>
+
+int main(void) {
+    int weight = 595;
+    printf("I weigh %d lbs. \n", weight + 12);
+    printf("I weigh %d lbs. \n", weight / 12);
+    printf("I weigh %d lbs. \n\n", weight % 12);
+
+    int a = 86;
+    int b = 21;
+
+    printf("%d \n", a / b);
+
+    float c = 86.0;
+    float d = 21.0;
+    printf("%f \n", c / d);
+
+    return 0;
+}
